@@ -14,7 +14,8 @@ body {
     
 }
 
-/* Estilo para el encabezado y el pie de página */
+
+
 header, footer {
     background-color: #007bff;
     color: #ffffff;
@@ -24,15 +25,31 @@ footer {
     background-color: #343a40;
 }
 
-/* Añadir algunos márgenes y rellenos */
+
 main {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-/* Imagen en el footer */
 footer img {
     width: 50px;
     height: auto;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
